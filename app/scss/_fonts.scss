@@ -1,0 +1,23 @@
+
+// font-face mixins
+@import "_mixins/font-face";
+
+
+// Include Roboto-font
+@include font-face("Roboto", "../fonts/Roboto/Roboto-Regular", normal, normal);
+@include font-face("RobotoMedium", "../fonts/Roboto/Roboto-Medium", 500, normal);
+@include font-face("RobotoBold", "../fonts/Roboto/Roboto-Bold", bold, normal);
+
+
+// Include Noto-font
+@include font-face("Noto", "../fonts/Noto/NotoSans",normal,normal);
+@include font-face("NotoBold", "../fonts/Noto/NotoSans-Bold",bold,normal);
+
+
+// Include icon-font
+@include font-face('icon','../fonts/icons/bitemitting',normal,normal);
+
+
+
+
+

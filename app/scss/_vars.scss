@@ -1,0 +1,44 @@
+
+
+// Roboto-font
+$R: 'Roboto';
+$RM: 'RobotoMedium';
+$RB: 'RobotoBold';
+
+
+// Noto-font
+$N: 'Noto';
+$NB: 'NotoBold';
+
+
+// Colors
+$white: #ffffff;
+$black: #000000;
+$blue: #135be7;
+$lightBlue: #4f7ab7;
+$orange: #ee800d;
+$lightOrange: #ffa03d;
+$gray: #525252;
+$grey:#909090;
+
+$EventsBg:#ededed;
+$newsBg:#ededed;
+$pcolor:#6d6d6d;
+$planningBg:#838383;
+$innerBg:rgba(37, 177, 95,1);
+$innerBorderColor: rgba(37,177,95,0.2);
+$outerBg: rgba(37, 177, 95,0.6);
+$outerBorderColor: rgba(37, 177, 95,0.3);
+
+$teamBgColor:#F9F9F9;
+
+
+
+
+// Customization Bootstrap vars from "app/libs/bootstrap/scss/_variables.scss"
+$grid-gutter-width: 30px;
+$grid-columns: 12;
+$grid-breakpoints: (xs: 0, sm: 576px, md: 768px, lg: 992px, xl: 1200px);
+$container-max-widths: (sm: 540px, md: 720px, lg: 960px, xl: 1140px);
+
+$gutter: $grid-gutter-width;

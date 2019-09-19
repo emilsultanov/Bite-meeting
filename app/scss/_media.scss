@@ -1,0 +1,3499 @@
+
+//  Import variables
+@import "vars";
+
+
+@media (max-width:1385px){
+
+
+   //============================= company-slider ====================//
+    .company{
+      width: 100%;
+      padding: 8em 0;
+
+      .swiper-container {
+         width: 100%;
+         height: 100%;
+      }
+      .swiper-slide {
+         text-align: center;
+         background: #fff;
+         /* Center slide text vertically */
+         display: -webkit-box;
+         display: -ms-flexbox;
+         display: -webkit-flex;
+         display: flex;
+         -webkit-box-pack: center;
+         -ms-flex-pack: center;
+         -webkit-justify-content: center;
+         justify-content: center;
+         -webkit-box-align: center;
+         -ms-flex-align: center;
+         -webkit-align-items: center;
+         align-items: center;
+      }
+
+      .company__slider{
+         position: static;
+
+         .company__wrapper{
+            position: static;
+
+            .company__slide{
+               transition: all 0.3s ease;
+
+               .company__img{
+                  width: 12rem;
+               }
+
+               &:hover{
+                  transform: translateY(-1rem);
+               }
+            }
+         }
+
+         .company__btn{
+            width: 4rem;
+            height: 4rem;
+            background-image: none;
+            border-radius: 50%;
+            border: 0.2rem solid $grey;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: all 0.3s ease;
+      
+            &:hover{
+               border-color: $gray;
+            }
+      
+            i{
+               font-size: 1.2rem;
+               font-weight: bold;
+               transition: all 0.3s ease;
+            }
+         }
+
+         .company__btn_next{
+            right: 0;
+
+            &:hover i{
+               transform: translateX(0.5rem);
+            }
+         }
+
+         .company__btn_prev{
+            left: 0;
+
+            &:hover i{
+               transform: translateX(-0.5rem);
+            }
+         }
+      }
+   }
+   //============================= company-slider ====================//
+
+
+   //============================= About.html contents ====================//
+   // team
+   .team{
+   
+      .team-btn-prev{
+         left: 45%;
+         top: 106%;
+   
+         &:hover .icon-left-big{
+            transform: translateX(-0.5rem);
+         }
+      }
+   
+      .team-btn-next{
+         right: 45%;
+         top: 106%;
+
+   
+         &:hover .icon-right-big{
+            transform: translateX(0.5rem);
+         }
+      }
+   }
+   //============================= About.html contents ====================//
+
+
+
+
+   //============================= newsview.html contnets ====================//
+   // relatedNews
+      .relatedNews{
+         padding: 4em 0 8em;
+
+         .relatedNews-btn-prev{
+            left: 45%;
+            top: 106%;
+         }
+
+         .relatedNews-btn-next{
+            right: 45%;
+            top: 106%;
+         }
+      }
+
+      
+   //============================= newsview.html contnets ====================//
+
+}
+
+
+
+ 
+
+//≥1200px
+@include media-breakpoint-down(lg) {
+
+
+   //==================== Common classes for home-page section title ====================//
+   .section__title{
+      font-size: 2.5rem;      
+   }
+
+   .section__description{
+      font-size: 1.6rem;
+      width: 100%;
+      letter-spacing: 0.1rem;
+   }
+   //==================== Common classes for home-page section title ====================//
+
+
+
+
+
+
+   //============================= Header ===========================//
+   .header{
+
+      .menu{
+
+         .logo-box{
+
+            .logo{
+               font-size: 2.7rem;
+            }
+         }
+      }
+   }
+   //============================= Header ===========================//
+
+
+
+
+
+   //============================= Introduction ====================//
+   .introduction{
+
+      .introduction__slider{
+
+         .introduction__slide{
+
+            .introduction__content{
+
+               .textCenter{
+
+                  .introduction__title,.introduction__text,.introduction__btn{
+                     text-align: center;
+                  }
+
+                  .introduction__title{
+                     font-size: 3.2rem;
+                  }
+
+                  .introduction__text{
+                     padding: 0 2.5em;
+                     letter-spacing: 0.1rem;
+                  }
+               }
+            }
+         }
+      }
+   }
+   //============================= Introduction ====================//
+
+
+
+
+   
+   //============================= bgVideo ====================//
+   .intro{
+      width: 100%;
+      height: 68vh;
+
+      .intro__content{
+
+         .intro__title{
+            font-size: 2.8rem;
+            font-family: $NB,'sans-serif';
+         }
+      }
+   }
+   //============================= bgVideo ====================//
+
+
+
+
+
+   //============================= News ====================//
+   .news{
+
+     .news-slider{
+
+         .news__card{
+
+            .news__card-title{
+               font-size: 1.8rem;
+            }
+         }
+     } 
+   }
+   //============================= News ====================//
+
+
+
+
+
+   //============================= company-slider ====================//
+   .company{
+      width: 100%;
+      padding: 8em 0;
+
+      .swiper-container {
+         width: 100%;
+         height: 100%;
+      }
+      .swiper-slide {
+         text-align: center;
+         background: #fff;
+         /* Center slide text vertically */
+         display: -webkit-box;
+         display: -ms-flexbox;
+         display: -webkit-flex;
+         display: flex;
+         -webkit-box-pack: center;
+         -ms-flex-pack: center;
+         -webkit-justify-content: center;
+         justify-content: center;
+         -webkit-box-align: center;
+         -ms-flex-align: center;
+         -webkit-align-items: center;
+         align-items: center;
+      }
+
+      .company__slider{
+         position: static;
+
+         .company__wrapper{
+            position: static;
+
+            .company__slide{
+               transition: all 0.3s ease;
+
+               .company__img{
+                  width: 12rem;
+               }
+
+               &:hover{
+                  transform: translateY(-1rem);
+               }
+            }
+         }
+
+         .company__btn{
+            width: 4rem;
+            height: 4rem;
+            background-image: none;
+            border-radius: 50%;
+            border: 0.2rem solid $grey;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: all 0.3s ease;
+      
+            &:hover{
+               border-color: $gray;
+            }
+      
+            i{
+               font-size: 1.2rem;
+               font-weight: bold;
+               transition: all 0.3s ease;
+            }
+         }
+
+         .company__btn_next{
+            right: 1rem;
+
+            &:hover i{
+               transform: translateX(0.5rem);
+            }
+         }
+
+         .company__btn_prev{
+            left: 1rem;
+
+            &:hover i{
+               transform: translateX(-0.5rem);
+            }
+         }
+      }
+   }
+   //============================= company-slider ====================//
+
+
+
+
+   //============================= banner ====================//
+   .banner{
+      width: 100%;
+      height: 60vh;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+
+
+      &::after{
+         content: '';
+         position: absolute;
+         top: 0;
+         left: 0;
+         width: 100%;
+         height: 100%;
+         background-color: rgba(0,0,0,0.4);
+         z-index: 2;
+      }
+
+
+      .banner__title{
+         text-align: center;
+         font-size: 3rem;
+         text-transform: uppercase;
+         letter-spacing: 0.1rem;
+         color: $white;
+         z-index: 4;
+         position: relative;
+
+      }
+   }
+   //============================= banner ====================//
+
+
+
+
+   //============================= contact.html contnets ====================//
+   // contact-about
+   .contact__about{
+      padding: 8em 0;
+
+      .contact__card{
+         padding: 0 2em;
+         width: 100%;
+         height: 21.3rem;
+         border-radius: 0.5rem;
+         overflow: hidden;
+         border-bottom: 0.3rem solid transparent;
+         transition: all 0.3s ease;
+         margin-bottom: 2rem;
+         border-color: $innerBg;
+         background-color: $white;
+         box-shadow: 0 4.4rem 9.8rem 0 rgba(0,0,0,.12);
+
+         
+        
+
+         &:hover .contact__card-header{
+            transform: translateY(0);
+         }
+
+         &:hover .contact__card-title{
+            transform: translateY(0);
+         }
+
+         &:hover .contact__card-text{
+            transform: translateY(0);
+         }
+
+         .contact__card-header{
+            width: 100%;
+            height: 7rem;
+            display: flex;
+            align-items: center;
+            transition: all 0.3s ease;
+         }
+
+         .contact__card-title{
+            width: 100%;
+            height: 7rem;
+            display: flex;
+            align-items: center;
+            transition: all 0.3s ease;
+
+
+            .contact__card-link{
+               font-size: 2rem;
+               letter-spacing: 0.1rem;
+               color: $black;
+               font-family: $NB,'sans-serif';
+               display: -webkit-box;
+               -webkit-line-clamp: 1;
+               -webkit-box-orient: vertical;  
+               overflow: hidden;
+            }
+         }
+
+         .contact__card-text{
+            height: 7rem;
+            font-size: 1.5rem;
+            display: flex;
+            align-items: center;
+            color: $black;
+            transform: translateY(0);
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;  
+            overflow: hidden;
+         }
+      }
+
+      // .contact__card{
+      //    border-radius: 0.5rem;
+      //    transition: all 0.3s ease;
+      //    padding: 2.5em;
+      //    overflow: hidden;
+      //    height: 13.7rem;
+      //    transition: all 0.2s ease;
+
+
+      //    &:hover .contact__card-header{
+      //       transform: translateY(-6.7rem);
+      //    }
+
+      //    &:hover  .contact__card-title{
+      //       transform:  translateY(-6.7rem);
+      //    }
+
+      //    &:hover  .contact__card-text{
+      //       transform:  translateY(-6.7rem);
+
+      //    }
+
+      //    &:hover{
+      //       border-bottom: 0.3rem solid $innerBg;
+      //       background-color: $white;
+      //       box-shadow: 0 44px 98px 0 rgba(0,0,0,.12)
+      //    }
+
+         
+      //    .contact__card-header,.contact__card-title, .contact__card-text{
+      //       transition: all 0.2s ease;
+      //    }
+
+      //    .contact__card-title{
+      //       padding: 2em 0;
+            
+            
+      //       .contact__card-link{
+      //          font-size: 2rem;
+      //          font-family: $NB,'sans-serif';
+      //          text-transform: capitalize;
+      //          letter-spacing: 0.1rem;
+      //          color: $black;
+      //          transition: all 0.3s ease;
+               
+
+      //          &:hover{
+      //             color: $orange;
+      //          }
+      //       }
+      //    }
+
+      //    .contact__card-text{
+      //       font-size: 1.5rem;
+      //    }
+         
+      // }
+
+
+   }
+   //============================= contact.html contnets ====================//
+
+
+   //==================== Common classes for other section title ====================//
+   .sections__title{
+      font-size: 2.5rem;
+      letter-spacing: 0.1rem;
+      word-spacing: 0.1rem;
+   }
+   //==================== Common classes for other section title ====================//
+
+
+
+
+
+   //============================= About.html contents ====================//
+   // team
+   .team{
+
+      .team__card{
+         .team__card-header{
+            width: 100%;
+            height: 25rem;
+         }
+
+         .team__card-footer{
+
+            .team__card-footer_left{
+               justify-content: space-between;
+   
+               .team__card-footer_left-icon{
+                  margin: 0;
+               }
+            }
+
+            .team__card-footer_right {
+               
+               .team__card-box{
+
+                  .team__card-link{
+                     font-size: 1.1rem;
+                  }
+
+                  &:hover .team__card-link{
+                     max-width: 15.5rem;
+                     min-width: 15.5rem;
+                     justify-content: space-around;
+   
+                     i{
+                        margin: 0;
+                     }
+                  }
+               }
+
+            }
+         }
+      }
+
+      
+
+   
+      
+   }
+   //============================= About.html contents ====================//
+
+
+
+
+   //============================= news.html contnets ====================//
+   .mainNews{
+   
+      .mainNews__card{
+        
+         .mainNews__card-header{
+            width: 26rem;
+            height: 26rem;
+         }
+
+         .mainNews__card-content{
+            width: 26rem;
+            margin: auto;
+
+            .mainNews__card-title{
+
+               .mainNews__link{
+                  font-size: 1.5rem;
+               }
+            }
+
+            
+            .mainNews__time{
+               span{
+                  font-size: 1.3rem;
+               }
+
+               i{
+                  font-size: 1.3rem;
+               }
+            }
+
+            .mainNews__text{
+               font-size: 1.3rem;
+            }
+         }
+      } 
+   }
+   //============================= news.html contnets ====================//
+
+
+
+
+   //============================= newsview.html contnets ====================//
+   // newsview
+   .newsview{
+
+      .newsview__title{
+         font-size: 3rem;
+      }
+   }
+
+   // related-news
+   .relatedNews{
+      padding: 4em 0 8em;
+
+      .relatedNews-btn{
+         top: 108%;
+      }
+
+      .relatedNews-btn-prev{
+         left: 43%;
+      }
+
+      .relatedNews-btn-next{
+         right: 43%;
+      }
+
+      .relatedNews__slide{
+
+         .relatedNews__card{
+
+            .relatedNews__card-header{
+               height: 25rem;
+            }
+
+            .relatedNews__card-content{
+
+               .relatedNews__card-title{
+                  margin-bottom: 1.6em;
+
+                  .relatedNews__link{
+                     font-size: 1.4rem;
+                  }
+               }
+            }
+         }
+      }
+   }
+   //============================= newsview.html contnets ====================//
+
+}
+
+
+ 
+// ≥992px
+@include media-breakpoint-down(md) {
+
+   body{
+      position: relative;
+   }
+   .overflow-hidden{
+      max-width: 100%;
+      height: 100%;
+   }
+
+
+
+  
+   //============================= Header ===========================//
+   .header{
+
+      .topNav{
+         display: none;
+      }
+
+      .menu{
+         padding: 1em 0;
+
+         .burger{
+            display: block;
+
+         }
+
+         .logo-box{
+            display: inline-flex;
+            align-items: center;
+         }
+
+         .menu__box{
+            position: fixed;
+            top: 0;
+            right: -100%;
+            z-index: 10;
+            overflow: hidden;
+            width: 100vw;
+            max-width: 100%;
+            height: 100vh;
+            transition: all 0.8s ease;
+            display: flex;
+            flex-direction: row;
+
+            &_active{
+               right: 0;
+            }
+            
+            .menu__overlay{
+               width: 50%;
+               background-color: rgba(0,0,0,.01);
+            }
+
+            .menu__list{
+               flex-direction: column;
+               width: 50%;
+               background-color: $white;
+               overflow-y: scroll;
+            
+
+               .menu__item{
+                  width: 100%;
+                  margin: 0;
+                  height: auto;
+                  padding: 1em 2em;
+               
+
+                  .menu__link{
+                     color: $black;
+                  }
+               }
+
+               .flag{
+                  position: static;
+                  flex-direction: row;
+                  justify-content: space-between;
+                  max-height: 100%;
+                  
+   
+                  .flag__list{
+                     position: static;
+                     display: inline-flex;
+                     flex-direction: row;
+                     justify-content: flex-start;
+                     width: auto;
+
+                     .flag__item{
+                        margin-right: 2.5em;
+                     }
+                  }
+
+                  .close-menu{
+                     cursor: pointer;
+                     display: inline-flex;
+                     align-items: center;
+                     justify-content: center;
+                     width: 4rem;
+                     height: 4rem;
+                     position: relative;
+                     transition: all 0.3s ease;
+
+                     
+
+                     &::before{
+                        content: '';
+                        position: absolute;
+                        width: 3rem;
+                        height: 0.3rem;
+                        background-color: black;
+                        transform: rotate(-135deg);
+                        border-radius: 0.3rem;
+                     }
+                     &::after{
+                        content: '';
+                        position: absolute;
+                        width: 3rem;
+                        height: 0.3rem;
+                        background-color: black;
+                        transform: rotate(135deg); 
+                        border-radius: 0.3rem;
+
+                     }
+
+                     
+                  }
+               }
+
+               .dropdown{
+                  position: relative;
+                  display: inline-flex;
+                  justify-content: flex-start;
+                  flex-direction: column;
+
+                  .menu__link{
+                     align-self: flex-start;
+                  }
+
+                  .dropdown__container{
+                     padding: 1.5em 0 0;
+                     position: relative;
+                     top: 0;
+                     left: 0;
+                     display: block;
+                  }
+               }
+            }
+         }
+      }
+   }
+   //============================= Header ===========================//
+
+
+
+
+   //============================= Introduction ====================//
+   .introduction{
+
+         .introduction__slider{
+
+            .introduction__slide{
+
+               .introduction__content{
+
+                  .textCenter{
+
+                     .introduction__title{
+                        font-size: 2.8rem;
+                     }
+                  }
+               }
+            }
+         }
+   }
+   //============================= Introduction ====================//
+
+   
+
+
+   //==================== Common classes for home-page section title ====================//
+   .section__title{
+      font-size: 2.3rem;      
+   }
+   //==================== Common classes for home-page section title ====================//
+
+   
+
+
+   //============================= EventsTime ====================//
+   .EventsTime{
+
+         .EventsTime__tab{
+
+            .EventsTime__tab-link{
+               font-size: 1.2rem;
+            }
+         }
+
+         .EventsTime__accordion{
+
+            .EventsTime__card{
+
+               .EventsTime__card-body{
+                  flex-direction: column;
+
+                  .EventsTime__card-left{
+                     width: 100%;
+                     display: inline-flex;
+                     margin-bottom: 1em;
+                     
+                     .EventsTime__speaker{
+                        margin:0 0 0 1em;
+                     }
+                  }
+
+                  .EventsTime__card-right{
+                     width: 100%;
+                  }
+               }
+            }
+         }
+   }
+   //============================= EventsTime ====================//
+
+
+
+
+
+   //============================= bgVideo ====================//
+   .intro{
+      height: 87vh;
+
+      .intro__video{
+         position: relative;
+         top: 0;
+         left: 0;
+         width: auto;
+         height: auto;
+         max-height: 100%;   
+      }
+      
+
+      .intro__content{
+         
+         .intro__title{
+            font-size: 2.5rem;
+            width: 90%;
+         }
+      }
+   }
+   //============================= bgVideo ====================//
+
+
+
+
+   //============================= Partners ====================//
+   .partners{
+
+      .partners-swiper{
+
+         .partners__slide{
+
+            .partners__img{
+               display: block;
+               width: 9.5rem;
+            }
+         }
+      }
+   }
+   //============================= Partners ====================//
+
+
+
+  
+   //============================= company-slider ====================//
+   .company{
+      width: 100%;
+      padding: 8em 0;
+
+      .swiper-container {
+         width: 100%;
+         height: 100%;
+      }
+      .swiper-slide {
+         text-align: center;
+         background: #fff;
+         /* Center slide text vertically */
+         display: -webkit-box;
+         display: -ms-flexbox;
+         display: -webkit-flex;
+         display: flex;
+         -webkit-box-pack: center;
+         -ms-flex-pack: center;
+         -webkit-justify-content: center;
+         justify-content: center;
+         -webkit-box-align: center;
+         -ms-flex-align: center;
+         -webkit-align-items: center;
+         align-items: center;
+      }
+
+      .company__slider{
+         position: static;
+
+         .company__wrapper{
+            position: static;
+
+            .company__slide{
+               transition: all 0.3s ease;
+
+               .company__img{
+                  width: 12rem;
+               }
+
+               &:hover{
+                  transform: translateY(-1rem);
+               }
+            }
+         }
+
+         .company__btn{
+            width: 4rem;
+            height: 4rem;
+            background-image: none;
+            border-radius: 50%;
+            border: 0.2rem solid $grey;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: all 0.3s ease;
+      
+            &:hover{
+               border-color: $gray;
+            }
+      
+            i{
+               font-size: 1.2rem;
+               font-weight: bold;
+               transition: all 0.3s ease;
+            }
+         }
+
+         .company__btn_next{
+            right: 0;
+
+            &:hover i{
+               transform: translateX(0.5rem);
+            }
+         }
+
+         .company__btn_prev{
+            left: 0;
+
+            &:hover i{
+               transform: translateX(-0.5rem);
+            }
+         }
+      }
+   }
+   //============================= company-slider ====================//
+
+
+
+   //============================= banner ====================//
+   .banner{
+         width: 100%;
+         height: 60vh;
+         background-repeat: no-repeat;
+         background-size: cover;
+         background-position: center;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         position: relative;
+
+
+         &::after{
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0,0,0,0.4);
+            z-index: 2;
+         }
+
+
+         .banner__title{
+            text-align: center;
+            font-size: 2.5rem;
+            text-transform: uppercase;
+            letter-spacing: 0.1rem;
+            color: $white;
+            z-index: 4;
+            position: relative;
+
+         }
+   }
+   //============================= banner ====================//
+
+
+
+
+   //============================= contact.html contnets ====================//
+   .contact__intro{
+
+      .contact__content{
+
+         .contact__title{
+            font-size: 3rem;
+         }
+      }
+   }
+
+   // contact-about
+   .contact__about{
+      padding: 8em 0;
+
+      .contact__card{
+         padding: 0 2em;
+         width: 100%;
+         height: 21.3rem;
+         border-radius: 0.5rem;
+         overflow: hidden;
+         border-bottom: 0.3rem solid transparent;
+         transition: all 0.3s ease;
+         border-color: $innerBg;
+         background-color: $white;
+         box-shadow: 0 4.4rem 9.8rem 0 rgba(0,0,0,.12);
+
+
+         &:hover .contact__card-header{
+            transform: translateY(0);
+         }
+
+         &:hover .contact__card-title{
+            transform: translateY(0);
+         }
+
+         &:hover .contact__card-text{
+            transform: translateY(0);
+         }
+
+         .contact__card-header{
+            width: 100%;
+            height: 7rem;
+            display: flex;
+            align-items: center;
+            transition: all 0.3s ease;
+         }
+
+         .contact__card-title{
+            width: 100%;
+            height: 7rem;
+            display: flex;
+            align-items: center;
+            transition: all 0.3s ease;
+
+
+            .contact__card-link{
+               font-size: 2rem;
+               letter-spacing: 0.1rem;
+               color: $black;
+               font-family: $NB,'sans-serif';
+               display: -webkit-box;
+               -webkit-line-clamp: 1;
+               -webkit-box-orient: vertical;  
+               overflow: hidden;
+            }
+         }
+
+         .contact__card-text{
+            height: 7rem;
+            font-size: 1.5rem;
+            display: flex;
+            align-items: center;
+            transform: translateY(0);
+            transition: all 0.3s ease;
+            color: $black;
+            text-align: left;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;  
+            overflow: hidden;
+         }
+      }
+
+      // .contact__card{
+      //    border-radius: 0.5rem;
+      //    transition: all 0.3s ease;
+      //    padding: 2.5em;
+      //    overflow: hidden;
+      //    height: 13.7rem;
+      //    transition: all 0.2s ease;
+
+
+      //    &:hover .contact__card-header{
+      //       transform: translateY(-6.7rem);
+      //    }
+
+      //    &:hover  .contact__card-title{
+      //       transform:  translateY(-6.7rem);
+      //    }
+
+      //    &:hover  .contact__card-text{
+      //       transform:  translateY(-6.7rem);
+
+      //    }
+
+      //    &:hover{
+      //       border-bottom: 0.3rem solid $innerBg;
+      //       background-color: $white;
+      //       box-shadow: 0 44px 98px 0 rgba(0,0,0,.12)
+      //    }
+
+         
+      //    .contact__card-header,.contact__card-title, .contact__card-text{
+      //       transition: all 0.2s ease;
+      //    }
+
+      //    .contact__card-title{
+      //       padding: 2em 0;
+            
+            
+      //       .contact__card-link{
+      //          font-size: 2rem;
+      //          font-family: $NB,'sans-serif';
+      //          text-transform: capitalize;
+      //          letter-spacing: 0.1rem;
+      //          color: $black;
+      //          transition: all 0.3s ease;
+               
+
+      //          &:hover{
+      //             color: $orange;
+      //          }
+      //       }
+      //    }
+
+      //    .contact__card-text{
+      //       font-size: 1.5rem;
+      //    }
+         
+      // }
+
+
+   }
+   //============================= contact.html contnets ====================//
+
+
+
+   //==================== Common classes for other section title ====================//
+   .sections__title{
+      font-size: 2.3rem;
+      letter-spacing: 0.1rem;
+      word-spacing: 0.1rem;
+   }
+   //==================== Common classes for other section title ====================//
+
+
+
+   //============================= About.html contents ====================//
+   // planning
+   .planning{
+
+      .parent{
+         margin-top: 2em;
+
+         .child{
+
+            .planning__box{
+               margin-bottom: 1.5em;
+
+               .planning__box-header{
+
+                  &::before{
+                     display: none;
+                  }
+
+                  &::after{
+                     display: none;
+                  }
+
+               }
+
+               .planning__box-title{
+                  padding-bottom: 0; 
+               }
+            }
+         }
+      }
+   }
+
+   // test
+   .test{
+
+      .test__bg{
+         width: 100%;
+         height: 35rem;
+      }
+   }
+
+   // team
+   .team{
+
+      .team-btn-prev{
+         left: 42%;
+      }
+
+      .team-btn-next{
+         right: 42%;
+      }
+
+      .team__card{
+
+         .team__card-footer{
+
+            .team__card-footer_left{
+               justify-content: flex-start;  
+
+               .team__card-footer_left-icon{
+                  margin-right: 0.5em;
+               }
+
+            }
+
+            .team__card-footer_right{
+
+               .team__card-box{
+
+                  &:hover .team__card-link{
+                     max-width: 20rem;
+                     min-width: 20rem;
+                  }
+               }
+            }
+         }
+      }
+   }
+   //============================= About.html contents ====================//
+
+
+
+   //============================= news.html contnets ====================//
+   .mainNews{
+   
+      .mainNews__card{
+         padding: 1.8em;
+
+         .mainNews__card-header{
+            width: 100%;
+            height: 30rem;
+         }
+
+         .mainNews__card-content{
+            width: 100%;
+            margin: 0;
+
+            .mainNews__card-title{
+
+               .mainNews__link{
+                  font-size: 1.9rem;
+               }
+            }
+
+            .mainNews__time{
+
+               i,span{
+                  font-size: 1.7rem;
+               }
+
+            }
+
+            .mainNews__text{
+               font-size: 1.6rem;
+            }
+
+            .mainNews__btn{
+               font-size: 1.6rem;
+
+               i{
+                  font-size: 1.4rem;
+               }
+            }
+         }
+      } 
+   }
+   //============================= news.html contnets ====================//
+
+
+
+
+
+   //============================= newsview.html contnets ====================//
+   // newsview
+   .newsview{
+
+      .newsview__title{
+         font-size: 2.5rem;
+      }
+   }
+   //============================= newsview.html contnets ====================//
+
+
+
+   //============================= events.html contnets ====================//
+   // events
+   .events{
+
+      .events__left{
+         margin-bottom: 4em;;
+      }
+      .events__right{
+         border: none;
+         padding: 0;
+         position: relative;
+         padding-top: 2em;
+
+         &::before{
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 60%;
+            height: 0.15rem;
+            background-color: $white;
+         }
+      }
+   }
+   
+   // eventLocation
+   .eventLocation{
+
+      .eventLocation__right{
+         height: 37.15rem;
+        
+      }
+
+      
+      .eventLocation__left{
+
+         .eventLocation__img{
+            height: 21.35rem;;
+         }
+      }
+   }
+   //============================= events.html contnets ====================//
+
+
+}
+
+
+ 
+// ≥768px
+@include media-breakpoint-down(sm) {
+
+
+   html,body{
+      font-size: 8px;
+   }
+
+
+
+
+   //============================= Header ===========================//
+   .header{
+
+         .topNav{
+            display: none;
+         }
+
+         .menu{
+            padding: 1em 0;
+
+            .burger{
+               display: block;
+            }
+
+            .menu__box{
+               position: fixed;
+               top: 0;
+               right: -100%;
+               z-index: 10;
+               overflow: hidden;
+               max-width: 100%;
+               width: 100vw;
+               height: 100vh;
+               transition: all 0.5s ease;
+               display: flex;
+               flex-direction: row;
+
+               &_active{
+                  right: 0;
+               }
+               
+               .menu__overlay{
+                  width: 30%;
+                  background-color: rgba(0,0,0,.01);
+               }
+
+               .menu__list{
+                  flex-direction: column;
+                  width: 70%;
+                  background-color: $white;
+                  overflow-y: scroll;
+               
+
+                  .menu__item{
+                     width: 100%;
+                     margin: 0;
+                     height: auto;
+                     padding: 1em 2em;
+                  
+
+                     .menu__link{
+                        color: $black;
+                        font-size: 1.5rem;
+                     }
+                  }
+
+                  .flag{
+                     position: static;
+                     flex-direction: row;
+                     justify-content: space-between;
+                     max-height: 100%;
+                     
+      
+                     .flag__list{
+                        position: static;
+                        display: inline-flex;
+                        flex-direction: row;
+                        justify-content: flex-start;
+                        height: 3.5rem;
+
+                        .flag__item{
+                           margin-right: 2.5em;
+
+                           .flag__link{
+
+                              .country{
+                                 height: 3.5rem;
+                              }
+                           }
+                        }
+                     }
+
+                     .close-menu{
+                        cursor: pointer;
+                        
+
+                        span{
+                           font-size: 2.5rem;
+                           text-transform: capitalize;
+                        }
+                     }
+                  }
+
+                  .dropdown{
+                     position: relative;
+                     display: inline-flex;
+                     justify-content: flex-start;
+                     flex-direction: column;
+
+                     .menu__link{
+                        align-self: flex-start;
+                     }
+
+                     .dropdown__container{
+                        padding: 1.5em 0 0;
+                        position: relative;
+                        top: 0;
+                        left: 0;
+                        display: block;
+
+                        .dropdown__title{
+                           font-size: 1.8rem;
+                        }
+
+                        .dropdown__list{
+
+                           .dropdown__item{
+
+                              .dropdown__link{
+                                 font-size: 1.5rem;
+                              }
+                           }
+                        }
+                     }
+                  }
+               }
+            }
+         }
+   }
+   //============================= Header ===========================//
+
+
+
+
+   //============================= Introduction ====================//
+   .introduction{
+         height: 60vh;
+
+         .introduction__slider{
+
+            .swiper-slide{
+
+               .introduction__content{
+
+                  .introduction__title{
+                     font-size: 3rem;
+                     font-family: $RB,'sans-serif';
+                  }
+
+                  .introduction__btn{
+                     font-size: 1.5rem;
+                     letter-spacing: 0.1rem;
+                  }
+               } 
+            } 
+         } 
+   } 
+   //============================= Introduction ====================//
+
+
+
+
+   //============================= EventsTime ====================//
+   .EventsTime{
+
+         .EventsTime__tab{
+            flex-direction: column;
+
+            .EventsTime__tab-link{
+               font-size: 1.5rem;
+            }
+         }
+
+         .EventsTime__accordion{
+
+            .EventsTime__card{
+
+               .EventsTime__card-header{
+
+                  .EventsTime__card-left, .EventsTime__card-right .EventsTime__card-open{
+                  font-size: 1.6rem;
+                  }
+               }
+
+               .EventsTime__card-body{
+                  flex-direction: column;
+
+                  .EventsTime__card-left{
+                     width: 100%;
+                     display: inline-flex;
+                     margin-bottom: 1em;
+                     
+                     .EventsTime__speaker{
+                        margin:0 0 0 1em;
+                        font-size: 1.6rem;
+                     }
+                  }
+
+                  .EventsTime__card-right{
+                     width: 100%;
+
+                     .EventsTime__news{
+                        font-size: 1.6rem;
+                     }
+                  }
+               }
+            }
+         }
+   }
+   //============================= EventsTime ====================//
+
+
+
+
+   //============================= bgVideo ====================//
+   .intro{
+      height: 65vh;
+
+     
+      .intro__content{
+         
+         .intro__title{
+            font-size: 2.5rem;
+            width: 90%;
+         }
+
+         .intro__btn{
+            font-size: 1.5rem;
+            padding: 1.2rem 2rem;
+         }
+      }
+   }
+   //============================= bgVideo ====================//
+
+
+
+
+   //============================= partners ====================//
+   .partners{
+
+         .partners-swiper{
+
+            .partners__slide{
+
+               .partners__img{
+                  width: 10rem;
+               }
+            }
+         }
+   }
+   //============================= partners ====================//
+
+
+   
+   
+   //============================= banner ====================//
+   .banner{
+      width: 100%;
+      height: 50vh;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+
+
+      &::after{
+         content: '';
+         position: absolute;
+         top: 0;
+         left: 0;
+         width: 100%;
+         height: 100%;
+         background-color: rgba(0,0,0,0.4);
+         z-index: 2;
+      }
+
+
+      .banner__title{
+         text-align: center;
+         font-size: 2.5rem;
+         text-transform: uppercase;
+         letter-spacing: 0.1rem;
+         color: $white;
+         z-index: 4;
+         position: relative;
+
+      }
+   }
+   //============================= banner ====================//
+
+
+
+
+   //============================= faq.html contnets ====================//
+   .faqContnet{
+      
+         margin-top: -5rem;
+         position: relative;
+         z-index: 4;
+         width: 100%;
+
+         .faqContnet__accordion{
+            background-color: $teamBgColor;
+            padding: 2em;
+            border-radius: 0.3rem;
+
+
+            .faqContnet__card{
+               background-color: $white;
+               border-radius: 0.5rem;
+               margin-bottom: 1em;
+
+
+               .faqContnet__card-header{
+                  padding: 2em 2em;
+
+
+                  .faqContnet__title{
+                     width: 100%;
+                     display: flex;
+                     justify-content: space-between;
+                     color: $black;
+                     font-size: 1.7rem;
+                     text-transform: capitalize;
+                     font-family: $RB,'sans-serif';
+                     transition: all 0.3s ease;
+
+                     &:hover{
+                        color: $blue;
+                     }
+                  }
+               }
+
+               .faqContnet__body{
+                  padding: 0 2em 2em;
+
+
+                  .faqContent__text{
+                     font-size: 1.7rem;
+                     color: $pcolor;
+                     letter-spacing: 0.1rem;
+                  }
+               }
+            }
+         }
+   }
+   //============================= faq.html contnets ====================//
+
+  
+
+   //============================= Footer ====================//
+   .footer{
+      background-color: $black;
+      padding: 2em 0;
+
+      .topNav{
+         border: none;
+
+         .topNav__list_right{
+
+            .author{
+
+               .topNav__link{
+                  font-size: 1.5rem;
+               }
+            }
+         }
+      }
+   }
+   //============================= Footer ====================//
+
+
+
+
+   //==================== Common classes for other section title ====================//
+   .sections__description{
+      font-size: 1.6rem;
+      letter-spacing: 0.1rem;
+      color: $pcolor;
+      padding: 1em 0;
+   }
+   .sections__description_center{
+      text-align: center;
+      width: 100%;
+      margin: auto;
+   }
+   //==================== Common classes for other section title ====================//
+
+
+
+
+   //============================= contact.html contnets ====================//
+   .contact__intro{
+      height: 75vh;
+
+     
+
+      .contact__content{
+      
+         .contact__title{
+            text-align: center;
+            color: $white;
+            font-size: 3.2rem;
+         }
+      }
+   }
+   //============================= contact.html contnets ====================//
+   
+
+
+   //============================= About.html contents ====================//
+   // test
+   .test{
+
+      .test__bg{
+         width: 100%;
+         height: 40rem;
+         min-height: 100%;
+         background-repeat: no-repeat;
+         background-size: cover;
+         background-position: center;
+      }
+
+      .test__content{
+         background-color: #F5F5F5;
+      }
+
+      &:nth-child(even){
+         .leftRight{
+            flex-direction: row-reverse;
+         }
+      }
+   }
+
+   // team
+   .team{
+
+      .team-btn{
+         top: 108%;
+      }
+
+
+      .team__card{
+
+         .team__card-footer{
+
+            .team__card-footer_right {
+
+               .team__card-box{
+
+                  .team__card-link{
+                     font-size: 1.3rem;
+                  }
+
+                  &:hover .team__card-link{
+                     max-width: 17.5rem;
+                     min-width: 17.5rem;
+                     justify-content: space-around;
+                  } 
+               }
+            }
+         }
+      }
+   }
+   //============================= About.html contents ====================//
+
+
+
+
+
+   //============================= newsview.html contnets ====================//
+   // newsview
+   .newsview{
+
+      .newsview__title{
+         font-size: 2.3rem;
+      }
+
+      .newsview__time{
+
+         span{
+            font-size: 1.7rem;
+         }
+   
+         i{
+            font-size: 1.6rem;
+         }
+      }
+
+      .newsview__text{
+         font-size: 1.7rem;
+      }
+   }
+
+   // relatedNews
+   .relatedNews{
+
+      .relatedNews__slide{
+
+         .relatedNews__card{
+
+            .relatedNews__card-header{
+               height: 35rem;
+            }
+
+            .relatedNews__card-content{
+
+               .relatedNews__card-title{
+
+                  .relatedNews__link{
+                     font-size: 1.9rem;
+                  }
+               }
+
+               .relatedNews__time{
+
+                  span{
+                     font-size: 1.7rem;
+                  }
+   
+                  i{
+                     font-size: 1.6rem;
+                   
+                  }
+               }
+
+               .relatedNews__text{
+                  font-size: 1.7rem;
+               }
+
+               .relatedNews__btn{
+                  font-size: 1.7rem;
+
+                  i{
+                     font-size: 1.5rem;
+                  }
+               }
+            }
+         }
+      }
+   }
+   //============================= newsview.html contnets ====================//
+
+
+
+
+
+  
+   
+   //============================= events.html contnets ====================//
+   // eventLocation
+   .eventLocation{
+
+      .eventLocation__left{
+
+         .eventLocation__img{
+            height: 20.35rem;
+         }
+
+         .eventLocation__left__content{
+            padding: 2em 3em;
+         }
+        
+      }
+   }
+   //============================= events.html contnets ====================//
+
+   
+
+
+
+
+}
+
+
+
+// ≥576px
+@include media-breakpoint-down(xs) {
+   
+   //============================= bgVideo ====================//
+   .intro{
+      height: 50vh;
+
+      .intro__video{
+         position: relative;
+         top: 0;
+         bottom: 0;
+         left: 0;
+         width: auto;
+         height: auto;
+         max-height: 100%;   
+      }
+      
+
+      .intro__content{
+         
+         .intro__title{
+            font-size: 2.5rem;
+            width: 90%;
+         }
+
+         .intro__btn{
+            font-size: 1.3rem;
+            padding: 1.2rem 1.5rem;
+         }
+      }
+   }
+   //============================= bgVideo ====================//
+
+
+
+   //============================= News ====================//
+   .news{
+
+      .news-slider{
+
+         .news__card{
+
+            .news__card-title{
+               font-size: 2rem;
+            }
+
+            .news__card-time{
+               font-size: 1.6rem;
+            }
+
+            .news__card-text{
+               font-size: 1.8rem;
+            }
+
+            .news__card-btn{
+               font-size: 1.7rem;
+               display: flex;
+               align-items: center;
+
+               i{
+                  font-size: 1.4rem;
+               }
+            }
+         }
+      } 
+   }
+   //============================= News ====================//
+
+
+
+
+   //============================= partners ====================//
+   .partners{
+
+      .partners-swiper{
+
+         .partners__slide{
+
+            .partners__img{
+               width: 9rem;
+            }
+         }
+      }
+   }
+   //============================= partners ====================//
+
+
+
+
+   //============================= company-slider ====================//
+   .company{
+      width: 100%;
+      padding: 8em 0;
+
+      .swiper-container {
+         width: 100%;
+         height: 100%;
+      }
+      .swiper-slide {
+         text-align: center;
+         background: #fff;
+         /* Center slide text vertically */
+         display: -webkit-box;
+         display: -ms-flexbox;
+         display: -webkit-flex;
+         display: flex;
+         -webkit-box-pack: center;
+         -ms-flex-pack: center;
+         -webkit-justify-content: center;
+         justify-content: center;
+         -webkit-box-align: center;
+         -ms-flex-align: center;
+         -webkit-align-items: center;
+         align-items: center;
+      }
+
+      .company__slider{
+         position: static;
+
+         .company__wrapper{
+            position: static;
+
+            .company__slide{
+               transition: all 0.3s ease;
+
+               &:hover{
+                  transform: translateY(-1rem);
+               }
+
+
+               .company__img{
+                  width: 16rem;
+               }
+            }
+         }
+
+         .company__btn{
+            width: 4rem;
+            height: 4rem;
+            background-image: none;
+            border-radius: 50%;
+            border: 0.2rem solid $grey;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: all 0.3s ease;
+            z-index: 4;
+      
+            &:hover{
+               border-color: $gray;
+            }
+      
+            i{
+               font-size: 1.2rem;
+               font-weight: bold;
+               transition: all 0.3s ease;
+            }
+         }
+
+         .company__btn_next{
+            right: 4rem;
+
+            &:hover i{
+               transform: translateX(0.5rem);
+            }
+         }
+
+         .company__btn_prev{
+            left: 4rem;
+
+            &:hover i{
+               transform: translateX(-0.5rem);
+            }
+         }
+      }
+   }
+   //============================= company-slider ====================//
+
+
+
+
+
+   //============================= banner ====================//
+   .banner{
+      width: 100%;
+      height: 44vh;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+
+
+      &::after{
+         content: '';
+         position: absolute;
+         top: 0;
+         left: 0;
+         width: 100%;
+         height: 100%;
+         background-color: rgba(0,0,0,0.4);
+         z-index: 2;
+      }
+
+
+      .banner__title{
+         text-align: center;
+         font-size: 2rem;
+         text-transform: uppercase;
+         letter-spacing: 0.1rem;
+         color: $white;
+         z-index: 4;
+         position: relative;
+
+      }
+   }
+   //============================= banner ====================//
+
+
+
+
+   //============================= contact.html contnets ====================//
+   .contact__intro{
+      height: 57vh;
+     
+
+      .contact__content{
+      
+         .contact__title{
+            text-align: center;
+            color: $white;
+            font-size: 2.8rem;
+         }
+      }
+   }
+   //============================= contact.html contnets ====================//
+
+
+
+
+
+   //============================= About.html contents ====================//
+   // team
+   .team{
+      
+      .team__card{
+
+         .team__card-header{
+            height: 35rem;
+         }
+
+         .team__card-content{
+
+            .team__card-title{
+               font-size: 2.3rem;
+               margin-top: 0.5em;
+            }
+
+            .team__card-subtitle{
+               font-size: 1.9rem;
+               letter-spacing: 0.1rem;
+            }
+
+            .team__card-text{
+               font-size: 1.8rem;
+            }
+         }
+
+         .team__card-footer{
+
+            .team__card-footer_left{
+
+               .team__card-footer_left-icon{
+                  width: 4rem;
+                  height: 4rem;
+                  margin-right: 1.2em;
+
+                  i{
+                     font-size: 1.7rem;
+                  }
+               }
+            }
+
+            .team__card-footer_right{
+
+               .team__card-box{
+                  margin-left: 1.2em;
+
+                  .team__card-link{
+                     min-width: 4rem;
+                     max-width: 4rem;
+                     height: 4rem;
+                     font-size: 1.6rem;
+
+                     i{
+                        font-size: 1.7rem;
+                        margin: 0 0.45em;
+                     }
+                  }
+
+                  &:hover .team__card-link {
+                     min-width: 30rem;
+                     max-width: 30rem;
+                  }
+               }
+            }
+         }
+      }
+   }
+   //============================= About.html contents ====================//
+
+
+
+
+
+   //============================= newsview.html contnets ====================//
+   // related-news
+   .relatedNews{
+
+      .relatedNews-btn-prev{
+         left: 40%;
+      }
+
+      .relatedNews-btn-next{
+         right: 40%;
+      }
+   }
+   //============================= newsview.html contnets ====================//
+
+
+     
+
+}
+
+
+
+@media (max-width:540px){
+   
+
+//============================= categories.html contnets ====================//
+// categories
+.categories{
+
+   .categories__list{
+      flex-flow: wrap;
+      justify-content: center;
+      align-content: center;
+      align-items: center;
+      padding: 0;
+
+      .categories__item{
+         margin: 0.5em 0;
+      }
+
+     
+   }
+}
+//============================= categories.html contnets ====================//
+
+
+
+
+}
+
+
+ 
+@media (max-width:526px){
+
+
+   //============================= EventsTime ====================//
+   .EventsTime{
+
+      .EventsTime__tab{
+         flex-direction: column;
+
+         .EventsTime__tab-link{
+            font-size: 1.5rem;
+         }
+      }
+
+      .EventsTime__accordion{
+
+         .EventsTime__card{
+
+            .EventsTime__card-header{
+               justify-content: space-between;
+
+
+               .EventsTime__card-left, .EventsTime__card-right .EventsTime__card-open{
+                  font-size: 1.6rem;
+               }
+
+               .EventsTime__card-left{
+                  width: 25%;
+               }
+
+               .EventsTime__card-right{
+                  width: 75%;
+               }
+            }
+
+            .EventsTime__card-body{
+               flex-direction: column;
+
+               .EventsTime__card-left{
+                  width: 100%;
+                  display: inline-flex;
+                  margin-bottom: 1em;
+                  
+                  .EventsTime__speaker{
+                     margin:0 0 0 1em;
+                     font-size: 1.6rem;
+                  }
+               }
+
+               .EventsTime__card-right{
+                  width: 100%;
+
+                  .EventsTime__news{
+                     font-size: 1.6rem;
+                  }
+               }
+            }
+         }
+      }
+   }
+   //============================= EventsTime ====================//
+
+
+
+   //============================= contact.html contnets ====================//
+   .contact__intro{
+      height: 49vh;
+     
+
+      .contact__content{
+      
+         .contact__title{
+            text-align: center;
+            color: $white;
+            font-size: 2.6rem;
+         }
+      }
+   }
+   //============================= contact.html contnets ====================//
+
+}
+
+
+
+
+@media (max-width:500px){
+
+
+   //============================= Header ===========================//
+   .header{
+
+      .menu{
+
+         .logo-box{
+
+            .logo{
+               font-size: 2.5rem;
+            }
+         }
+      }
+   }
+   //============================= Header ===========================//
+
+
+
+   //============================= banner ====================//
+     .banner{
+      width: 100%;
+      height: 35vh;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+
+
+      &::after{
+         content: '';
+         position: absolute;
+         top: 0;
+         left: 0;
+         width: 100%;
+         height: 100%;
+         background-color: rgba(0,0,0,0.4);
+         z-index: 2;
+      }
+
+
+      .banner__title{
+         text-align: center;
+         font-size: 1.8rem;
+         text-transform: uppercase;
+         letter-spacing: 0.1rem;
+         color: $white;
+         z-index: 4;
+         position: relative;
+
+      }
+   }
+   //============================= banner ====================//
+
+
+
+   //============================= About.html contents ====================//
+   // team
+   .team{
+
+      
+      .team-btn-prev{
+         left: 40%;
+      }
+
+      .team-btn-next{
+         right: 40%;
+      }
+   }
+   //============================= About.html contents ====================//
+
+
+
+
+   //============================= newsview.html contnets ====================//
+   // newsview
+   .newsview{
+
+      .newsview__top{
+
+         .swiper-wrapper{
+
+            .newsview__slide{
+               height: 40rem;
+            }
+         }
+      }
+   }
+   //============================= newsview.html contnets ====================//
+
+
+
+}
+
+
+
+@media (max-width:437px){
+  
+
+   //============================= contact.html contnets ====================//
+   .map-area {
+
+      #map{
+         height: 35rem;
+      }
+   }
+   //============================= contact.html contnets ====================//
+
+
+   //============================= About.html contents ====================//
+   // team
+   .team{
+
+      .team__card{
+
+         .team__card-content{
+
+            .team__card-title{
+               font-size: 2rem;
+            }
+
+            .team__card-subtitle{
+               font-size: 1.8rem;
+            }
+
+            .team__card-text{
+               font-size: 1.65rem;
+            }
+         }
+
+         .team__card-footer{
+
+            .team__card-footer_left{
+               width: 22%;
+               justify-content: space-between;
+
+               .team__card-footer_left-icon{
+                  margin:0;
+
+               }
+            }
+
+            .team__card-footer_right{
+               width: 78%;
+
+               .team__card-box{
+                  margin-left: 1em;
+
+                  .team__card-link{
+                     font-size: 1.45rem;
+                  }
+
+                  &:hover .team__card-link{
+                     max-width: 25rem;
+                     min-width: 25rem;
+                  }
+               }
+            }
+
+         }
+      }
+   }
+   //============================= About.html contents ====================//
+
+
+
+
+   //============================= newsview.html contnets ====================//
+   // newsview
+   .newsview{
+
+      .newsview__title{
+         font-size: 2rem;
+      }
+
+      .newsview__top{
+
+         .swiper-wrapper{
+
+            .newsview__slide{
+               height: 35rem;
+            }
+         }
+      }
+   }
+   //============================= newsview.html contnets ====================//
+
+}
+
+
+@media (max-width:427px){
+
+   html,body{
+      width: 100%;
+   }
+
+
+
+   //============================= Header ===========================//
+   .header{
+
+      .topNav{
+         display: none;
+      }
+
+      .menu{
+         padding: 1em 0;
+
+         .burger{
+            display: block;
+
+         }
+
+         .menu__box{
+            position: fixed;
+            top: 0;
+            right: -100%;
+            z-index: 10;
+            overflow: hidden;
+            max-width: 100%;
+            width: 100vw;
+            height: 100vh;
+            transition: all 0.5s ease;
+            display: flex;
+            flex-direction: row;
+
+            &_active{
+               right: 0;
+            }
+            
+            .menu__overlay{
+               display: none;
+               // width: 50%;
+               // background-color: rgba(0,0,0,.01);
+            }
+
+            .menu__list{
+               flex-direction: column;
+               min-width: 100%;
+               background-color: $white;
+               overflow-y: scroll;
+               
+
+               .menu__item{
+                  width: 100%;
+                  margin: 0;
+                  height: auto;
+                  padding: 1em 2em;
+                  
+
+                  .menu__link{
+                     color: $black;
+                  }
+               }
+
+               .flag{
+                  position: static;
+                  flex-direction: row;
+                  justify-content: space-between;
+                  max-height: 100%;
+                  
+
+                  .flag__list{
+                     position: static;
+                     display: inline-flex;
+                     flex-direction: row;
+                     justify-content: flex-start;
+
+                     .flag__item{
+                        margin-right: 2.5em;
+                     }
+                  }
+
+                  .close-menu{
+                     cursor: pointer;
+                     
+
+                     span{
+                        font-size: 2.5rem;
+                        text-transform: capitalize;
+                     }
+                  }
+               }
+
+               .dropdown{
+                  position: relative;
+                  display: inline-flex;
+                  justify-content: flex-start;
+                  flex-direction: column;
+
+                  .menu__link{
+                     align-self: flex-start;
+                  }
+
+                  .dropdown__container{
+                     padding: 1.5em 0 0;
+                     position: relative;
+                     top: 0;
+                     left: 0;
+                     display: block;
+
+                     
+                  }
+               }
+            }
+         }
+      }
+   }
+   //============================= Header ===========================//
+
+
+
+
+   //============================= company-slider ====================//
+   .company{
+      width: 100%;
+      padding: 8em 0;
+
+      .swiper-container {
+         width: 100%;
+         height: 100%;
+      }
+      .swiper-slide {
+         text-align: center;
+         background: #fff;
+         /* Center slide text vertically */
+         display: -webkit-box;
+         display: -ms-flexbox;
+         display: -webkit-flex;
+         display: flex;
+         -webkit-box-pack: center;
+         -ms-flex-pack: center;
+         -webkit-justify-content: center;
+         justify-content: center;
+         -webkit-box-align: center;
+         -ms-flex-align: center;
+         -webkit-align-items: center;
+         align-items: center;
+      }
+
+      .company__slider{
+         position: static;
+
+         .company__wrapper{
+            position: static;
+
+            .company__slide{
+               transition: all 0.3s ease;
+
+               &:hover{
+                  transform: translateY(-1rem);
+               }
+
+               .company__img{
+                  width: 14rem;
+               }
+            }
+         }
+
+         .company__btn{
+            width: 4rem;
+            height: 4rem;
+            background-image: none;
+            border-radius: 50%;
+            border: 0.2rem solid $grey;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: all 0.3s ease;
+            z-index: 4;
+      
+            &:hover{
+               border-color: $gray;
+            }
+      
+            i{
+               font-size: 1.2rem;
+               font-weight: bold;
+               transition: all 0.3s ease;
+            }
+         }
+
+         .company__btn_next{
+            right: 3rem;
+
+            &:hover i{
+               transform: translateX(0.5rem);
+            }
+         }
+
+         .company__btn_prev{
+            left: 3rem;
+
+            &:hover i{
+               transform: translateX(-0.5rem);
+            }
+         }
+      }
+   }
+   //============================= company-slider ====================//
+
+
+
+   
+   //============================= contact.html contnets ====================//
+   .contact__intro{
+      height: 41vh;
+     
+
+      .contact__content{
+      
+         .contact__title{
+            text-align: center;
+            color: $white;
+            font-size: 2.4rem;
+         }
+      }
+   }
+   //============================= contact.html contnets ====================//
+
+
+
+
+   
+   //============================= news.html contnets ====================//
+   .mainNews{
+   
+      
+      .marginTop{
+         margin-top: -15rem;
+      }
+      .mainNews__card{
+         padding: 1.8em;
+
+         .mainNews__card-header{
+            width: 100%;
+            height: 30rem;
+         }
+
+         .mainNews__card-content{
+            width: 100%;
+            margin: 0;
+
+            .mainNews__card-title{
+
+               .mainNews__link{
+                  font-size: 1.7rem;
+               }
+            }
+
+            .mainNews__time{
+
+               i,span{
+                  font-size: 1.6rem;
+               }
+
+            }
+
+            .mainNews__text{
+               font-size: 1.5rem;
+            }
+
+            .mainNews__btn{
+               font-size: 1.5rem;
+
+               i{
+                  font-size: 1.4rem;
+               }
+            }
+         }
+      } 
+   }
+   //============================= news.html contnets ====================//
+
+}
+
+@media (max-width:382px){
+
+
+   //============================= Header ===========================//
+    .header{
+
+      .menu{
+
+         .logo-box{
+
+            .logo{
+               font-size: 2.3rem;
+            }
+         }
+      }
+   }
+   //============================= Header ===========================//
+
+
+
+
+
+   //==================== Common classes for home-page section title ====================//
+   .section__title{
+      font-size: 2rem;      
+   }
+   //==================== Common classes for home-page section title ====================//
+
+
+
+
+
+   //============================= Introduction ====================//
+   .introduction{
+      height: 50vh;
+
+      .introduction__slider{
+
+         .swiper-slide{
+
+            .introduction__content{
+
+               .introduction__title{
+                  font-size: 2.3rem;
+                  font-family: $RB,'sans-serif';
+               }
+
+               .introduction__btn{
+                  font-size: 1.3rem;
+                  letter-spacing: 0.1rem;
+                  padding: 1.2rem 2rem;
+               }
+            } 
+         } 
+      } 
+   } 
+   //============================= Introduction ====================//
+
+
+
+
+
+   //============================= bgVideo ====================//
+   .intro{
+      height: 35vh;
+
+      
+      .intro__content{
+         
+         .intro__title{
+            font-size: 2.1rem;
+            width: 100%;
+         }
+
+         .intro__btn{
+            font-size: 1.3rem;
+            padding: 1.2rem 1.5rem;
+         }
+      }
+   }
+   //============================= bgVideo ====================//
+
+
+
+   //============================= EventsTime ====================//
+   .EventsTime{
+
+      .EventsTime__tab{
+         flex-direction: column;
+
+         .EventsTime__tab-link{
+            font-size: 1.5rem;
+         }
+      }
+
+      .EventsTime__accordion{
+
+         .EventsTime__card{
+
+            .EventsTime__card-header{
+               justify-content: space-between;
+               flex-direction: column;
+               padding: 1.5rem 0;
+
+               .EventsTime__card-left, .EventsTime__card-right .EventsTime__card-open{
+                  font-size: 1.6rem;
+               }
+
+               .EventsTime__card-left{
+                  width: auto;
+                  margin-bottom: 1.5rem;
+               }
+
+               .EventsTime__card-right{
+                  width: 100%;
+               }
+            }
+
+            .EventsTime__card-body{
+               flex-direction: column;
+               margin-top: 2rem;
+
+               .EventsTime__card-left{
+                  width: 100%;
+                  display: inline-flex;
+                  margin-bottom: 1em;
+                  
+                  .EventsTime__speaker{
+                     margin:0 0 0 1em;
+                     font-size: 1.6rem;
+                  }
+               }
+
+               .EventsTime__card-right{
+                  width: 100%;
+
+                  .EventsTime__news{
+                     font-size: 1.6rem;
+                  }
+               }
+            }
+         }
+      }
+   }
+   //============================= EventsTime ====================//
+
+
+
+   //============================= contact.html contnets ====================//
+   .map-area {
+
+      #map{
+         height: 30rem;
+      }
+   }
+   //============================= contact.html contnets ====================//
+
+
+   //============================= news.html contnets ====================//
+   .mainNews{
+   
+      
+      .marginTop{
+         margin-top: -15rem;
+      }
+      .mainNews__card{
+         padding: 1.8em;
+
+         .mainNews__card-header{
+            width: 100%;
+            height: 30rem;
+         }
+
+         .mainNews__card-content{
+            width: 100%;
+            margin: 0;
+
+            .mainNews__card-title{
+
+               .mainNews__link{
+                  font-size: 1.5rem;
+               }
+            }
+
+            .mainNews__time{
+
+               i,span{
+                  font-size: 1.5rem;
+               }
+
+            }
+
+            .mainNews__text{
+               font-size: 1.5rem;
+            }
+
+            .mainNews__btn{
+               font-size: 1.5rem;
+
+               i{
+                  font-size: 1.4rem;
+               }
+            }
+         }
+      } 
+   }
+   //============================= news.html contnets ====================//
+
+
+
+   //============================= About.html contents ====================//
+   // team
+   .team{
+
+      .team-btn-prev{
+         left: 37%;
+      }
+
+      .team-btn-next{
+         right: 37%;
+      }
+
+      .team__card{
+
+
+         .team__card-footer{
+
+            .team__card-footer_left{
+               width: 25%;
+            }
+
+            .team__card-footer_right{
+               width: 75%;
+               .team__card-box{
+                  margin-left: 0.7em;
+
+                  .team__card-link{
+                  font-size: 1.35rem;
+
+                  }
+
+                  &:hover .team__card-link{
+                     max-width: 20rem;
+                     min-width: 20rem;
+                  }
+               }
+            }
+         }
+      }
+   }
+   //============================= About.html contents ====================//
+
+
+
+}
+
+
+@media (max-width:375px){
+
+
+   //============================= Header ===========================//
+   .header{
+
+      .menu{
+
+         .logo-box{
+
+            .logo{
+               font-size: 2.1rem;
+            }
+         }
+
+         .burger{
+
+            i{
+               font-size: 2.5rem;
+            }
+         }
+      }
+   }
+   //============================= Header ===========================//
+
+
+
+
+   //============================= banner ====================//
+   .banner{
+      width: 100%;
+      height: 30vh;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+
+
+      &::after{
+         content: '';
+         position: absolute;
+         top: 0;
+         left: 0;
+         width: 100%;
+         height: 100%;
+         background-color: rgba(0,0,0,0.4);
+         z-index: 2;
+      }
+
+
+      .banner__title{
+         text-align: center;
+         font-size: 1.3rem;
+         text-transform: uppercase;
+         letter-spacing: 0.1rem;
+         color: $white;
+         z-index: 4;
+         position: relative;
+
+      }
+   }
+   //============================= banner ====================//
+
+
+
+
+   //============================= contact.html contnets ====================//
+   .contact__intro{
+      height: 36vh;
+     
+
+      .contact__content{
+      
+         .contact__title{
+            text-align: center;
+            color: $white;
+            font-size: 2rem;
+         }
+      }
+   }
+   //============================= contact.html contnets ====================//
+
+
+
+
+
+   //============================= news.html contnets ====================//
+   // newsview
+   .newsview{
+
+      .newsview__top{
+
+         .swiper-wrapper{
+
+            .newsview__slide{
+               height: 28rem;;
+            }
+         }
+      }
+   }
+
+   // related-news
+   .relatedNews{
+
+      .relatedNews__slide{
+
+         .relatedNews__card{
+
+            .relatedNews__card-header{
+               height: 30rem;
+            }
+
+            .relatedNews__card-content{
+
+               .relatedNews__card-title{
+
+                  .relatedNews__link{
+                     font-size: 1.6rem;
+                  }
+               }
+
+               .relatedNews__time{
+
+                  span,i{
+                     font-size: 1.5rem;
+                  }
+               }
+
+               .relatedNews__text{
+                  font-size: 1.55rem;
+               }
+            }
+         }
+      }
+   }
+   //============================= news.html contnets ====================//
+
+
+
+}
+
+@media (max-width:355px){
+
+
+   //============================= faq.html contnets ====================//
+   .faqContnet{
+      
+      margin-top: -5rem;
+      position: relative;
+      z-index: 4;
+      width: 100%;
+
+      .faqContnet__accordion{
+         background-color: $teamBgColor;
+         padding: 2em;
+         border-radius: 0.3rem;
+
+
+         .faqContnet__card{
+            background-color: $white;
+            border-radius: 0.5rem;
+            margin-bottom: 1em;
+
+
+            .faqContnet__card-header{
+               padding: 2em 2em;
+
+
+               .faqContnet__title{
+                  width: 100%;
+                  display: flex;
+                  justify-content: space-between;
+                  color: $black;
+                  font-size: 1.5rem;
+                  text-transform: capitalize;
+                  font-family: $RB,'sans-serif';
+                  transition: all 0.3s ease;
+
+                  &:hover{
+                     color: $blue;
+                  }
+               }
+            }
+
+            .faqContnet__body{
+               padding: 0 2em 2em;
+
+
+               .faqContent__text{
+                  font-size: 1.4rem;
+                  color: $pcolor;
+               
+               }
+            }
+         }
+      }
+   }
+   //============================= faq.html contnets ====================//
+
+
+
+   //============================= contact.html contnets ====================//
+   .map-area {
+
+      #map{
+         height: 27rem;
+      }
+   }
+   //============================= contact.html contnets ====================//
+
+
+}
+
+
+@media (max-width:345px){
+
+
+   //============================= contact.html contnets ====================//
+   // team
+   .team{
+
+
+      .team__card{
+
+         .team__card-footer{
+
+            .team__card-footer_left{
+               width: 27%;
+            }
+
+            .team__card-footer_right{
+               width: 73%;
+
+               .team__card-box{
+
+                  .team__card-link{
+                     font-size: 1.25rem;
+                  }
+
+                  &:hover .team__card-link{
+                     max-width: 17.5rem;
+                     min-width: 17.5rem;
+                  }
+               }
+            }
+         }
+      }
+   }
+   //============================= contact.html contnets ====================//
+
+
+
+
+   //============================= newsview.html contnets ====================//
+   // related-news
+   .relatedNews{
+
+      .relatedNews-btn-prev{
+         left: 38%;
+      }
+
+      .relatedNews-btn-next{
+         right: 38%;
+      }
+   }
+   //============================= newsview.html contnets ====================//
+
+
+
+}
